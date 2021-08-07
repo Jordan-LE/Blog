@@ -14,8 +14,8 @@
         {% for tag in article.tags.all %}
             <small>#{{ tag.name }}</small>
         {% endfor %}
-        
-        <img src='{{ article.image }}'/>
+
+        <p><img src='{{ article.image }}'/></p>
         <p>{{ article.text }}</p>     
     </article>
 
