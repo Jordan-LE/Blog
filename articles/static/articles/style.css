@@ -1,6 +1,7 @@
 body {
     background-color: rgb(20, 20, 20);
     color: aliceblue;
+    text-align: center;
 }
 
 a, a:visited {
@@ -9,10 +10,6 @@ a, a:visited {
 
 a:hover {
     color : rgb(220, 220, 225);
-}
-
-h1 {
-    text-align: center;
 }
 
 .articles {
@@ -29,6 +26,21 @@ h1 {
     max-width: 1000px;
     margin: 10px;
     padding-bottom: 10px;
-    text-align: center;
     border: 1px solid aliceblue;
+}
+
+
+
+.article-detail {
+    margin: auto;
+    width: 90%;
+}
+
+.article-text {
+    text-align: left;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
 }
