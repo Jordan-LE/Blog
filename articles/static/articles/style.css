@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: aliceblue;
+}
+
+a, a:visited {
+    color: aliceblue;
+}
+
+a:hover {
+    color : rgb(220, 220, 225);
+}
+
+h1 {
+    text-align: center;
+}
+
+.articles {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article {
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    max-width: 1000px;
+    margin: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 1px solid aliceblue;
+}
